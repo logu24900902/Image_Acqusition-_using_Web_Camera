@@ -83,7 +83,7 @@ cap.release()
 
 
 ## iv) Rotate and display the video
-## iv) Rotate and display the video
+
 cap = cv2.VideoCapture(0)
 
 for i in range(50):
