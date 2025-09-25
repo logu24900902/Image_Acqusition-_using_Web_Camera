@@ -27,11 +27,11 @@ Use cv2.imshow to show the video.
 End the program and close the output video window by pressing 'q'.
 
 ## Program:
-``` Python
 ### Developed By: LOGU R
 ### Register No: 212224230141
 
 ## i) Write the frame as JPG file
+```Python
 import cv2
 import matplotlib.pyplot as plt
 from IPython.display import clear_output
@@ -46,8 +46,10 @@ plt.imshow(captured_image[:,:,::-1])
 plt.title('Captured Frame')
 plt.axis('off')
 plt.show()
+```
 
 ## ii) Display the video
+```Python
 cap = cv2.VideoCapture(0)
 
 for i in range(50):
@@ -62,9 +64,10 @@ for i in range(50):
     time.sleep(0.05)
 
 cap.release()
+```
 
 ## iii) Display the video by resizing the window
-
+```Python
 cap = cv2.VideoCapture(0)
 
 for i in range(50):
@@ -80,11 +83,11 @@ for i in range(50):
     time.sleep(0.05)
 
 cap.release()
-
+```
 
 
 ## iv) Rotate and display the video
-
+```Python
 cap = cv2.VideoCapture(0)
 
 for i in range(50):
@@ -100,12 +103,6 @@ for i in range(50):
     time.sleep(0.05)
 
 cap.release()
-
-
-
-
-
-
 ```
 ## Output
 
